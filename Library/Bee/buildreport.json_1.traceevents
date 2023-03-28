@@ -1,0 +1,475 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1679959142184987, "dur": 3764400, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679959142185491, "dur": 2444, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679959142187939, "dur": 64892, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679959142252833, "dur": 747239, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679959143000074, "dur": 2948176, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679959145948252, "dur": 1133, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679959145950440, "dur": 38, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1679959142654974, "dur": 312654, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679959142656618, "dur": 90518, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679959142916943, "dur": 25602, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679959142942551, "dur": 25056, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679959142943837, "dur": 18120, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679959142976234, "dur": 2465, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679959142974592, "dur": 4166, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679959145950626, "dur": 20550, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1679959143068830, "dur":2272, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959143071116, "dur":88, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1679959143071233, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1679959143071253, "dur":462, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1679959143071801, "dur":4741, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959143076542, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145690903, "dur":173, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145691076, "dur":43, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145691119, "dur":42, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145691161, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145691184, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145691188, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145691199, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145691203, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145691210, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145691229, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145691290, "dur":60975, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1679959143072867, "dur":3686, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143076558, "dur":15611, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143092189, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1679959143092200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143095271, "dur":3519, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1679959143098797, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1679959143098834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143099343, "dur":3330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1679959143102676, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1679959143102993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143103049, "dur":6246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1679959143109525, "dur":1254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1679959143110786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143110829, "dur":6272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1679959143117326, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1679959143117809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143118879, "dur":7715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1679959143126820, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1679959143127175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143127187, "dur":7859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1679959143135280, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1679959143135615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143135628, "dur":5346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1679959143141191, "dur":24325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1679959143165522, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143165532, "dur":4926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1679959143170684, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143170988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143171424, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143174487, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143174691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143174713, "dur":3593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143178333, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143178580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143178589, "dur":4165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143182773, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143183043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143183199, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143187942, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143188244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143188255, "dur":5380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143193660, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143194039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143194059, "dur":4846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143198946, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143199284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143199293, "dur":5367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143204689, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143204975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143205003, "dur":5562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143210869, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143211258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143211268, "dur":6593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143217886, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143218198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143218210, "dur":3862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143222097, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143222393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143222417, "dur":3419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143225866, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143226136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143226144, "dur":4474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143230647, "dur":2544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143233198, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143233210, "dur":5411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143238649, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143238944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143238953, "dur":4731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143243715, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143244290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143244298, "dur":6225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143250559, "dur":744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143251311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143251322, "dur":5047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143256397, "dur":86728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143343132, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143343143, "dur":4745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143347906, "dur":15611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143363523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143363534, "dur":3955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143367508, "dur":1100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143368613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143368622, "dur":3712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143372367, "dur":415286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143787669, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143787728, "dur":9890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143797687, "dur":1348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143799048, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143799070, "dur":11896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143811045, "dur":1362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143812420, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143812443, "dur":9768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143822241, "dur":993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143823242, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143823255, "dur":4787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143828077, "dur":14919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143843000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143843012, "dur":5644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143848682, "dur":24007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143872697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143872710, "dur":5917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143878652, "dur":30002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143908661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143908671, "dur":4990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143913711, "dur":30048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143943766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143943899, "dur":4324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143948252, "dur":22613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143970872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143970882, "dur":8528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143979438, "dur":14338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143993785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959143993798, "dur":5528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959143999365, "dur":27488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144026861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959144026874, "dur":5401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144032300, "dur":9544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144041852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959144041866, "dur":20292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144062186, "dur":84176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144146369, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959144146386, "dur":10710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144157123, "dur":146998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144304132, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959144304150, "dur":9166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144313359, "dur":41402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144354769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959144354784, "dur":10762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144365594, "dur":301903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144667511, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959144667535, "dur":15304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144682902, "dur":166603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144849517, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959144849535, "dur":9877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959144859468, "dur":753603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959145613085, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959145613106, "dur":15507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679959145628680, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1679959145628741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959145628757, "dur":17171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1679959145645993, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1679959145646045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959145646061, "dur":15656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1679959145661750, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1679959145661772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679959145661781, "dur":10291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1679959145672090, "dur":18804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143072930, "dur":3635, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143076565, "dur":15825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143092391, "dur":1654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1679959143094049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143097329, "dur":10767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1679959143108348, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1679959143108683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143109525, "dur":6667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1679959143116435, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1679959143116794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143116821, "dur":8757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1679959143125826, "dur":1514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1679959143127344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143127354, "dur":6722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1679959143134325, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1679959143134689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143134705, "dur":4124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1679959143139052, "dur":263307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143402366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143402375, "dur":440584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143843134, "dur":3656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143846794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143846804, "dur":4436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143851266, "dur":8152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143859424, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143859435, "dur":6918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143866388, "dur":53207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143919602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143919613, "dur":6036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143925675, "dur":1687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143927369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143927381, "dur":9032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143936430, "dur":46334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143982770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143982781, "dur":7618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143990426, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143991170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959143991182, "dur":7866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959143999074, "dur":6788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144005868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959144005879, "dur":8064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144013969, "dur":41151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144055128, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959144055143, "dur":8368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144063547, "dur":37246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144100799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959144100809, "dur":7328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144108154, "dur":8164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144116324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959144116334, "dur":7184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144123535, "dur":33092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144156634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959144156644, "dur":4329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144160990, "dur":121266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144282266, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959144282283, "dur":22885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144305215, "dur":40981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144346207, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959144346224, "dur":5160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144351416, "dur":625040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144976467, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959144976484, "dur":12410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679959144988949, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1679959144989009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959144989050, "dur":8349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1679959144997504, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679959144997573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959144997590, "dur":24272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679959145021893, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679959145021925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959145021938, "dur":47949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679959145069937, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679959145069974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959145069987, "dur":43011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679959145113024, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679959145113049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959145113059, "dur":490589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679959145603704, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1679959145604109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959145604122, "dur":18331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1679959145622526, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679959145622581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959145622599, "dur":16953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679959145639599, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1679959145639665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959145639685, "dur":11460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1679959145651183, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679959145651219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959145651232, "dur":16332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679959145667604, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1679959145667909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679959145667921, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1679959145670072, "dur":20821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143072979, "dur":3595, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143076575, "dur":15599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143092189, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1679959143092603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143097941, "dur":9923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1679959143108103, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1679959143108467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143108495, "dur":7930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1679959143116640, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1679959143117007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143117034, "dur":8745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1679959143126041, "dur":808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1679959143127042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143127099, "dur":8030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1679959143135363, "dur":8283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143143652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143144034, "dur":4274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143148492, "dur":1063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game.exe" }}
+,{ "pid":12345, "tid":3, "ts":1679959143149559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143149567, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game.exe" }}
+,{ "pid":12345, "tid":3, "ts":1679959143153373, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1679959143153755, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143154068, "dur":29413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1679959143183711, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143184064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143184089, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143188634, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143188885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143188894, "dur":5460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143194378, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143194616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143194623, "dur":4315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143198970, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143199198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143199207, "dur":5931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143205174, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143205461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143205486, "dur":5105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143210618, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143210885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143210895, "dur":5923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143216849, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143217173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143217184, "dur":4317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143221533, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143221963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143221989, "dur":5033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143227061, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143227370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143227379, "dur":3749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143231155, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143231804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143231814, "dur":3782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143235631, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143235858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143235867, "dur":4225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143240120, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143240448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143240462, "dur":7132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143247630, "dur":52232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143299869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143299879, "dur":11140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143311039, "dur":18695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143329741, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143329756, "dur":4882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143334666, "dur":20234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143354906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143354915, "dur":5326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143360264, "dur":424177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143784454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143784471, "dur":18742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143803272, "dur":3346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143806630, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143806650, "dur":11827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143818560, "dur":2429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143821007, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143821028, "dur":6176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143827248, "dur":908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143828162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143828173, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143832255, "dur":18122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143850385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143850397, "dur":5980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143856405, "dur":29155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143885567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143885580, "dur":5460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143891064, "dur":24092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143915162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143915172, "dur":6017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143921213, "dur":1651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143922868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143922877, "dur":7796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143930694, "dur":4135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143934835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143934847, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143938666, "dur":17780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143956457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959143956469, "dur":10442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959143966937, "dur":35173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959144002116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959144002126, "dur":9466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959144011620, "dur":59172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959144070799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959144070809, "dur":5868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959144076695, "dur":455536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959144532242, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959144532259, "dur":14286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959144546580, "dur":138831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959144685421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959144685438, "dur":56556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959144742025, "dur":170236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959144912273, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959144912290, "dur":19704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959144932030, "dur":238191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959145170228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959145170239, "dur":448969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679959145619258, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1679959145619659, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959145619679, "dur":4389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1679959145624120, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1679959145624187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959145624224, "dur":23814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1679959145648111, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1679959145648175, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679959145648191, "dur":20307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1679959145668528, "dur":22354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143073027, "dur":3557, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143076584, "dur":15589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143092189, "dur":1819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1679959143094022, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143095533, "dur":12227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1679959143108001, "dur":1444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1679959143109458, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143109483, "dur":6757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1679959143116484, "dur":1628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1679959143118117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143118131, "dur":8222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1679959143126590, "dur":1622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1679959143128220, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143128235, "dur":8786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1679959143137249, "dur":104475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143241730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143241772, "dur":16701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143258671, "dur":59519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143318346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143318360, "dur":5781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143324170, "dur":139523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143463701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143463711, "dur":337840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143801626, "dur":3879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143805518, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143805539, "dur":14257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143819846, "dur":16971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143836826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143836838, "dur":8442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143845302, "dur":18814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143864124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143864137, "dur":5514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143869677, "dur":8871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143878555, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143878567, "dur":5147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143883741, "dur":10844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143894592, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959143894605, "dur":4897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959143899530, "dur":136730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144036266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959144036277, "dur":6410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144042716, "dur":46264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144088987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959144088997, "dur":4558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144093572, "dur":66353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144159934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959144159950, "dur":5214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144165182, "dur":105203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144270396, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959144270413, "dur":6631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144277095, "dur":34318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144311449, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959144311474, "dur":6716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144318239, "dur":127835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144446085, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959144446102, "dur":8759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144454917, "dur":36839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144491767, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959144491785, "dur":10287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144502123, "dur":309450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144811584, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959144811601, "dur":41216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959144852884, "dur":823431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959145676321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679959145676331, "dur":14172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/UnityProjects/InklingProjectBuilds/Totally Fun Meltdown Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679959145690527, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1679959145690531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679959145831517, "dur":49311, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1679959145971333, "dur": 2009, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679959145950415, "dur": 22980, "ph": "X", "name": "Write chrome-trace events", "args": {} },
